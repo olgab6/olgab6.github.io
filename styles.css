@@ -85,8 +85,8 @@ h1 {
 .main-part .fenix {
     position: absolute;
     width: 280px;
-    padding-left: 770px;
-    top: 420px;
+    padding-left: 870px;
+    top: 350px;
 
 }
 
@@ -111,8 +111,10 @@ h1 {
     width: 650px;
     padding-left: 4%;
     padding-top: 115px;
+    margin-bottom: -70px;
 
 }
+
 
 .yellow-group {
     position: absolute;
