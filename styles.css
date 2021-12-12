@@ -1,10 +1,9 @@
-
 html {
     scroll-behavior: smooth;
 
 }
 
-body{
+body {
     margin: 0;
 }
 
@@ -12,12 +11,12 @@ body{
 
 header {
     display: flex;
-    flex-direction:row;
-    align-items:stretch;
-    justify-content:right;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: right;
     background: #7879F1;
     font-family: 'Indie Flower', cursive;
-    
+
 }
 
 .media-menu-item {
@@ -45,20 +44,22 @@ h2 {
     padding-left: 12%;
 
 }
+
 h3 {
     font-family: "Arizonia", cursive;
     color: #9ACEAF;
     font-size: 60px;
     padding-left: 3%;
 }
+
 h1 {
     font-family: "Indie flower", cursive;
     color: #7879F1;
     font-size: 150px;
-    padding-left:12%;
+    padding-left: 12%;
     margin-top: -55px;
     padding-top: 0px;
-   
+
 }
 
 .headline {
@@ -80,13 +81,15 @@ h1 {
     width: 190px;
     padding-top: 20px;
 }
+
 .main-part .fenix {
     position: absolute;
     width: 280px;
     padding-left: 770px;
     top: 420px;
-     
+
 }
+
 .O-speech {
     font-family: "Arizonia", cursive;
     font-size: 28px;
@@ -98,6 +101,7 @@ h1 {
     justify-content: space-around;
 
 }
+
 .K-speech {
     font-family: "Indie flower", cursive;
     font-size: 24px;
@@ -109,12 +113,14 @@ h1 {
     padding-top: 115px;
 
 }
+
 .yellow-group {
     position: absolute;
     width: 130px;
     padding-left: 10%;
     top: 230px;
 }
+
 .flag {
     position: absolute;
     width: 180px;
@@ -122,39 +128,59 @@ h1 {
     top: 460px;
 
 }
+
 .purple-group {
     position: absolute;
     width: 130px;
     padding-left: 560px;
     top: 670px;
 }
+
 .button-picture {
     width: 400px;
 }
+
+.button-text {
+    text-align: center;
+}
+
 .flower-text {
     font-family: "Arizonia", cursive;
     font-size: 60px;
     color: #F1EC9E;
 }
+
 .sea-text {
     font-family: "Arizonia", cursive;
     font-size: 60px;
     color: #7BC8CA;
 }
+
 .nature-text {
     font-family: "Arizonia", cursive;
     font-size: 60px;
     color: #9ACEAF;
 }
+
 .mountain-text {
     font-family: "Arizonia", cursive;
     font-size: 60px;
     color: #E5AAAA
 }
+
 .buttons {
     margin: 70px;
-    
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
 }
+
+.buttons>a {
+    text-decoration: none;
+}
+
 .introduction {
     font-family: "Arizonia", cursive;
     font-size: 28px;
@@ -162,6 +188,7 @@ h1 {
     width: 400px;
     padding-left: 80%;
 }
+
 .headings {
     font-family: "Indie flower", cursive;
     font-size: 35px;
