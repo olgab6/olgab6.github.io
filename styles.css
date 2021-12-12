@@ -1,3 +1,4 @@
+
 html {
     scroll-behavior: smooth;
 
@@ -38,19 +39,30 @@ header {
 h2 {
     font-family: "Arizonia", cursive;
     color: #9ACEAF;
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 0;
-    padding: 0%;
-    padding-left: 20%;
+    padding: -50px;
+    padding-left: 12%;
 
+}
+h3 {
+    font-family: "Arizonia", cursive;
+    color: #9ACEAF;
+    font-size: 60px;
+    padding-left: 3%;
 }
 h1 {
     font-family: "Indie flower", cursive;
     color: #7879F1;
-    font-size: 85px;
-    margin-top: 0;
-    padding: 0%;
-    padding-left: 20%;
+    font-size: 150px;
+    padding-left:12%;
+    margin-top: -55px;
+    padding-top: 0px;
+   
+}
+
+.headline {
+    margin-bottom: 20px;
 }
 
 
@@ -63,21 +75,95 @@ h1 {
 .main-part .peacock {
     position: absolute;
     top: 0;
-    left: 0;
+    padding-left: 0;
     z-index: -1;
-    width: 150px;
+    width: 190px;
+    padding-top: 20px;
 }
 .main-part .fenix {
     position: absolute;
+    width: 280px;
+    padding-left: 770px;
+    top: 420px;
      
 }
 .O-speech {
     font-family: "Arizonia", cursive;
-    font-size: 14px;
+    font-size: 28px;
     color: #817F7F;
     display: flex;
+    width: 600px;
+    padding-left: 13%;
+    padding-top: 0px;
     justify-content: space-around;
-    width: 245px;
-    padding-left: 20%;
+
+}
+.K-speech {
+    font-family: "Indie flower", cursive;
+    font-size: 24px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    width: 650px;
+    padding-left: 4%;
+    padding-top: 115px;
+
+}
+.yellow-group {
+    position: absolute;
+    width: 130px;
+    padding-left: 10%;
+    top: 230px;
+}
+.flag {
+    position: absolute;
+    width: 180px;
+    padding-left: 150px;
+    top: 460px;
+
+}
+.purple-group {
+    position: absolute;
+    width: 130px;
+    padding-left: 560px;
+    top: 670px;
+}
+.button-picture {
+    width: 400px;
+}
+.flower-text {
+    font-family: "Arizonia", cursive;
+    font-size: 60px;
+    color: #F1EC9E;
+}
+.sea-text {
+    font-family: "Arizonia", cursive;
+    font-size: 60px;
+    color: #7BC8CA;
+}
+.nature-text {
+    font-family: "Arizonia", cursive;
+    font-size: 60px;
+    color: #9ACEAF;
+}
+.mountain-text {
+    font-family: "Arizonia", cursive;
+    font-size: 60px;
+    color: #E5AAAA
+}
+.buttons {
+    margin: 70px;
     
+}
+.introduction {
+    font-family: "Arizonia", cursive;
+    font-size: 28px;
+    color: #817F7F;
+    width: 400px;
+    padding-left: 80%;
+}
+.headings {
+    font-family: "Indie flower", cursive;
+    font-size: 35px;
+    color: #817F7F;
 }
